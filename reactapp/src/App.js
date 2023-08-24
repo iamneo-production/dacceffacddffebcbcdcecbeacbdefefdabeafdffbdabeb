@@ -1,10 +1,10 @@
 import React from 'react';
-import { Odd, Even, generateRandomList } from './functions/OddEven';
+import { filterOdd, filterEven, generateRandomList } from './functions/filterOddEven';
 
 function App() {
   const randomList = generateRandomList(); // Returns an array of 7 random numbers
-  const oddNumbers = Odd(...randomList); // Returns an array of odd numbers
-  const evenNumbers = Even(...randomList); // Returns an array of even numbers
+  const oddNumbers = filterOdd(...randomList); // Returns an array of odd numbers
+  const evenNumbers = filterEven(...randomList); // Returns an array of even numbers
 
   return (
     <div>
