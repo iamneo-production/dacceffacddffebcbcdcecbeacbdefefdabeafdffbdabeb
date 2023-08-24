@@ -1,8 +1,8 @@
-function filterOdd(...nums) {
+function Odd(...nums) {
     return nums.filter((num) => num % 2 === 1);
   }
   
-  function filterEven(...nums) {
+  function Even(...nums) {
     return nums.filter((num) => num % 2 === 0);
   }
   
@@ -14,4 +14,4 @@ function filterOdd(...nums) {
     return nums;
   }
   
-  export { filterOdd, filterEven, generateRandomList };
+  export { Odd, Even, generateRandomList };
