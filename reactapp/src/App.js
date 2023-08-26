@@ -1,5 +1,5 @@
 import React from 'react';
-import { filterOdd, filterEven, generateRandomList } from './functions/OddEven.js';
+import { filterOdd, filterEven, generateRandomList } from './functions/filterOddEven';
 
 function App() {
   const randomList = generateRandomList(); // Returns an array of 7 random numbers
